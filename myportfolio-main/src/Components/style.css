@@ -1,0 +1,38 @@
+*{
+    background-color: black;
+}
+.images img{
+    float: right;
+    max-height: 700px;
+    max-width: 425px;
+    margin-top: 90px;
+    /* margin-left: 450px; */
+    margin-right: 100px;
+    /* border:4px solida red; */
+}
+.name{
+    font-size: 85px;
+    margin-top: 200px;
+    /* font; */
+    float: left;
+    margin-left: 50px;
+}
+.port{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.name .prog{
+    margin-left: 25px;
+    overflow: hidden;
+    border-bottom: 0.15em solid orange;
+    border-top: 0.15em solid orange;
+    white-space:nowrap;
+    /* font-size: 85px; */
+    width: 0;
+    animation: typing 2s steps(15,end) backwards infinite;
+}
+@keyframes typing{
+from{width: 0;}
+to{width: 100%;}
+}

@@ -1,0 +1,43 @@
+.division{
+    margin-top: 15px;
+}
+form{
+    height: 500px;
+    width: 500px;
+    background-color: orange;
+    /* margin-left: 150px; */
+    border-radius: 12px;
+    padding: 20px;
+   
+}
+
+input{
+    padding-left: 12px;
+    height: 75px;
+    width: 85%;
+    border-radius: 12px;
+    margin-left: 0;
+    background-color: aliceblue;
+    color: black;
+    /* float: left; */
+}
+label{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+}
+.sub{
+    background-color: black;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+.vertical{
+    margin-left: 75px;
+}
